@@ -1,0 +1,161 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+
+
+body{
+
+background-color: rgba(161, 159, 157, 0.555);
+
+}
+.conteinner{
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(231, 224, 220, 0.699);
+width: 700px;
+height: 280px;
+border-radius:2px ;
+box-shadow: 3px 3px rgb(175, 173, 173);
+}
+.esquerda{
+background-color: rgba(109, 106, 103, 0.452);
+width: 415px;
+height: 220px;
+margin: 20px 0px 20px 30px ;
+float: left;
+
+box-shadow: 2px 3px #999;
+1
+
+}
+ .direita{
+    padding: 8px 30px;
+margin: 30px 20px 0px 0px;
+width: 208px;
+height: 230px;
+background-color: rgba(0, 0, 0, 0.801);
+float:right;
+border-radius:1px ;
+box-shadow: 1px 1px;
+}
+
+.opcao{
+margin-left: -26px;
+
+}
+.selecao{ 
+    
+    margin: 0px;
+    text-align: center;
+      font-size: 10px;
+      margin-top: 5px;
+    padding: 8px 10px;
+    border: none;
+    margin-left: -1px;
+    background-color:white;
+    cursor: pointer;
+}
+.selecao2{ 
+ border: none;
+    margin: 0px;
+    text-align: center;
+      font-size: 10px;
+      margin-top: 5px;
+    padding: 8px 10px;
+    margin-left: 2px;
+background-color:red;
+cursor: pointer;
+}
+.selecao3{ 
+  display: inline-block;
+    background-color: green;
+    text-align: center;
+      font-size: 10px;
+    padding: 20px 1px 5px 5px;
+    margin-left: 2px;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+  
+
+}
+
+.botao {  
+font: bold;
+margin-top: -20px;
+margin-right: 10px;
+ padding:2px 16px;
+background-color: black;
+font-size: 10px;
+color: white;
+box-shadow: 3px 3px #555;
+cursor: pointer;
+}
+
+
+button:hover{
+
+animation-name: botaoA ;
+animation-duration: 0.9s;
+/* animation-iteration-count: infinite; */
+
+
+
+
+}
+
+
+
+.botao_0 {
+    margin-left: -9px;
+    margin-top: 1px;
+    padding:2px 16px;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px #555;
+    cursor: pointer;
+    
+}
+table{
+  width: 100%;
+height: 70%;
+
+
+}
+@keyframes botaoA{
+  
+  0%{
+
+    transform: scale(1);
+  }
+  100%{
+
+    transform: scale(0.90);
+  }
+
+
+}
+.info{   
+  
+  float: left;
+  border: 1px solid black;
+margin: 15px 0px 0px 15px;
+  width: 250px;
+  height:170px;
+  padding: 10px;
+  
+}
+.foto{
+  float: right;
+
+  border: 1px solid black;
+margin: 20px 10px 0px 0px;
+  width: 100px;
+  height:120px;
+}
